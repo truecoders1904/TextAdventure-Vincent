@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vincent\\source\\repos\\TextAdventure\\TextAdventure\\TextAdventure.csproj": {}
+    "C:\\Users\\Vincent\\Desktop\\New folder\\TextAdventure-Vincent\\TextAdventure\\TextAdventure\\TextAdventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vincent\\source\\repos\\TextAdventure\\TextAdventure\\TextAdventure.csproj": {
+    "C:\\Users\\Vincent\\Desktop\\New folder\\TextAdventure-Vincent\\TextAdventure\\TextAdventure\\TextAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vincent\\source\\repos\\TextAdventure\\TextAdventure\\TextAdventure.csproj",
+        "projectUniqueName": "C:\\Users\\Vincent\\Desktop\\New folder\\TextAdventure-Vincent\\TextAdventure\\TextAdventure\\TextAdventure.csproj",
         "projectName": "TextAdventure",
-        "projectPath": "C:\\Users\\Vincent\\source\\repos\\TextAdventure\\TextAdventure\\TextAdventure.csproj",
+        "projectPath": "C:\\Users\\Vincent\\Desktop\\New folder\\TextAdventure-Vincent\\TextAdventure\\TextAdventure\\TextAdventure.csproj",
         "packagesPath": "C:\\Users\\Vincent\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vincent\\source\\repos\\TextAdventure\\TextAdventure\\obj\\",
+        "outputPath": "C:\\Users\\Vincent\\Desktop\\New folder\\TextAdventure-Vincent\\TextAdventure\\TextAdventure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
