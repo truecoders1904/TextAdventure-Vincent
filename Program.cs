@@ -22,7 +22,7 @@ namespace TextAdventure
                         // show kitchen
                     }
 
-                    Console.WriteLine("Would you like to see the dining where I eat all of the fast food restraunts that I want?(^_^)");
+                    Console.WriteLine("Would you like to see the dining room where I eat all of the fast food restraunts that I want?(^_^)");
                     response = Console.ReadLine();
 
                     if (response == "Yes")
@@ -36,6 +36,15 @@ namespace TextAdventure
                     {
                         // show briliant plan
                     }
+                    Console.WriteLine("Okay, let us move on now I was kiddding about that I am a fair person I would never do that to a country even though I probably can cause their government is corrupt");
+                    Console.WriteLine("Okay, nevermind that you did't hear anything shall we move on?");
+                    response = Console.ReadLine();
+
+                    if (response == "Yes")
+                    {
+                        // moving on...
+                    }
+
                     Console.WriteLine("Now for my final masterpiece *pushes Melania Trump to the side* my TRAIN COLLECTION!!!!");
                     Console.WriteLine("*runs over to the trains* BING BING BONG BING BING");
                     Console.WriteLine("Ok, bye now (-_^), *type Bye*");
