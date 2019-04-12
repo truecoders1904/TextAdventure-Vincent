@@ -7,14 +7,15 @@ namespace TextAdventure
         static void Main(string[] args)
         {
             {
-                Console.WriteLine("Welcome to the White House! I'm President Trump ( ^ ◡ ^)");
-                Console.WriteLine("You must be the new security gaurd, do you want a tour?");
+                Console.WriteLine("Welcome to the White House! I am President Trump ( ^ ◡ ^)");
+                Console.WriteLine("You must be the new security gaurd, would you like a tour");
     
                 string response = Console.ReadLine();
 
+                
                 if (response == "Yes")
                 {
-                    Console.WriteLine("Would you like to see my MASSIVE kitchen that I don't use? (~_^)");
+                    Console.WriteLine("Would you like to see my HUGE kitchen rarely ever us? (~_^)");
                     response = Console.ReadLine();
 
                     if (response == "Yes")
@@ -22,22 +23,21 @@ namespace TextAdventure
                         // show kitchen
                     }
 
-                    Console.WriteLine("Would you like to see the dining room where I eat all of the fast food restraunts that I want?(^_^)");
+                    Console.WriteLine("Would you like to see the dining room where all my postmates get delivered?(^_^)");
                     response = Console.ReadLine();
 
                     if (response == "Yes")
                     {
                         // show dining room
                     }
-                    Console.WriteLine("Now would you like to see my briliant plan on how I am gonna make Mexico pay for my massive wall? XD");
+                    Console.WriteLine("Now would you like to see my briliant plan on how I am gonna make Mexico pay for my HUGE wall?");
                     response = Console.ReadLine();
 
                     if (response == "Yes")
                     {
                         // show briliant plan
                     }
-                    Console.WriteLine("Okay, let us move on now I was kiddding about that I am a fair person I would never do that to a country even though I probably can cause their government is corrupt");
-                    Console.WriteLine("Okay, nevermind that you did't hear anything shall we move on?");
+                    Console.WriteLine("Nevermind what I just said, I was kidding about that I am an honest person I could never take advantage of a corrupt country.(:");
                     response = Console.ReadLine();
 
                     if (response == "Yes")
@@ -45,8 +45,8 @@ namespace TextAdventure
                         // moving on...
                     }
 
-                    Console.WriteLine("Now for my final masterpiece *pushes Melania Trump to the side* my TRAIN COLLECTION!!!!");
-                    Console.WriteLine("*runs over to the trains* BING BING BONG BING BING");
+                    Console.WriteLine("Now for my masterpiece *pushes Melania Trump to the side* my TRAIN COLLECTION!!!!");
+                    Console.WriteLine("*runs over to the trains and says* BING BING BONG BING BING");
                     Console.WriteLine("Ok, bye now (-_^), *type Bye*");
                     response = Console.ReadLine();
 
@@ -54,11 +54,19 @@ namespace TextAdventure
                     {
                         // goodbye
                     }
-                    Console.WriteLine("Forgot to mention YOU'RE FIRED!!!");
+                    Console.WriteLine("Oh, forgot to mention YOU'RE FIRED!!!");
                 }
                 else if (response == "No")
                 {
-                    Console.WriteLine("YOU'RE FIRED!");
+                    Console.WriteLine("Are you sure about that?");
+                    response = Console.ReadLine();
+
+                    if (response == "Yes")
+                    {
+                        // making sure 
+                    }
+                    Console.WriteLine("YOU'RE FIRED!!");
+                    
                 }
 
             }
