@@ -13,12 +13,12 @@ namespace TextAdventure
                 string response = Console.ReadLine();
 
                 
-                if (response == "Yes")
+                if (response.ToLower() == "yes")
                 {
                     Console.WriteLine("Would you like to see my HUGE kitchen rarely ever us? (~_^)");
                     response = Console.ReadLine();
 
-                    if (response == "Yes")
+                    if (response.ToLower() == "yes")
                     {
                         // show kitchen
                     }
@@ -26,21 +26,21 @@ namespace TextAdventure
                     Console.WriteLine("Would you like to see the dining room where all my postmates get delivered?(^_^)");
                     response = Console.ReadLine();
 
-                    if (response == "Yes")
+                    if (response.ToLower() == "yes")
                     {
                         // show dining room
                     }
                     Console.WriteLine("Now would you like to see my briliant plan on how I am gonna make Mexico pay for my HUGE wall?");
                     response = Console.ReadLine();
 
-                    if (response == "Yes")
+                    if (response.ToLower() == "yes")
                     {
                         // show briliant plan
                     }
                     Console.WriteLine("Nevermind what I just said, I was kidding about that I am an honest person I could never take advantage of a corrupt country.(:");
                     response = Console.ReadLine();
 
-                    if (response == "Yes")
+                    if (response.ToLower() == "yes")
                     {
                         // moving on...
                     }
@@ -50,22 +50,24 @@ namespace TextAdventure
                     Console.WriteLine("Ok, bye now (-_^), *type Bye*");
                     response = Console.ReadLine();
 
-                    if (response == "Bye")
+                    if (response.ToLower() == "bye")
                     {
                         // goodbye
                     }
                     Console.WriteLine("Oh, forgot to mention YOU'RE FIRED!!!");
                 }
-                else if (response == "No")
+                else if (response.ToLower() == "no")
                 {
                     Console.WriteLine("Are you sure about that?");
                     response = Console.ReadLine();
 
-                    if (response == "Yes")
+                    if (response.ToLower() == "yes")
                     {
                         // making sure 
                     }
                     Console.WriteLine("YOU'RE FIRED!!");
+
+                   
                     
                 }
 
